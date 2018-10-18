@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="./jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $.ajax({
+            type : "get",
+            url  : "http://192.168.1.155:8000/get_history_charge?start=1535731200&end=1536595200",
+            //data : {"start":"","end":""},
+            headers: {"Authorization": "bHptOjYyZTI4MzhlMGRmYzMwM2UxZTc3MWYxNGVjODY5ZjkzZDA0ZWQ5NGY="},
+            success:function(result) {
+
+                 //var result = JSON.parse(result)
+                //if (result.code == 0) {
+                    //alert(result.token)
+                //} else{
+                //alert(result.errmsg)
+                //}
+            },
+            error:function  (jqXHR,status) {
+                alert(jqXHR.statusText)
+            }
+        });
+  });
+
+
+</script>
+<body>
+
+</body>
+</html>

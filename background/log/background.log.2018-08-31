@@ -1,0 +1,74 @@
+2018-08-31 15:09:13,584:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:09:13,599:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:31:37,910:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:31:37,925:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:31:52,816:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:32:04,644:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:32:04,657:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:33:04,674:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:33:04,683:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:33:31,101:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:33:31,102:manageToken.py:generate_token[46]:DEBUG:token=bHptOjg0Njg2Y2VjZjg5ZDIxMmUwOGE3ZWM5MDBiOWJmOGE1NmVhZjg2NTg=
+2018-08-31 15:33:31,102:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 1.54ms
+2018-08-31 15:33:37,102:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:33:37,103:manageToken.py:generate_token[46]:DEBUG:token=bHptOjM2MDY5YzQ3MGZhZjEyNzA4MzJkZTc0M2IxNDk1NDZkYTFjMzkxZTQ=
+2018-08-31 15:33:37,103:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 0.50ms
+2018-08-31 15:33:51,028:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:33:51,038:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:33:55,214:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:33:59,680:manageToken.py:generate_token[46]:DEBUG:token=bHptOjFkMmIzOTgxYWJmMDcxNzZjMDQxYzNlZDU3YmY0Y2Y2MWZjM2FlZjI=
+2018-08-31 15:33:59,684:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 4473.84ms
+2018-08-31 15:42:03,489:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 15:42:03,504:main.py:<module>[304]:INFO:http_server.start:prot=8000
+2018-08-31 15:42:18,012:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:42:24,241:manageToken.py:generate_token[46]:DEBUG:token=bHptOjRiNmExZjRjYTI2ZjgzMDU4OGYxYzhmMmM2OWE0NWJiNTk1NTA3ZTc=
+2018-08-31 15:42:24,246:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 6238.71ms
+2018-08-31 15:43:18,589:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:43:25,774:manageToken.py:generate_token[46]:DEBUG:token=bHptOjkwN2I0M2MwMTNlOTFjMDE4MTkwMjY0OWYzYWYwMmY4NTJhN2ZhZTM=
+2018-08-31 15:43:25,778:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 7191.74ms
+2018-08-31 15:43:40,196:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:43:45,369:manageToken.py:generate_token[46]:DEBUG:token=bHptOmQxZWY4Y2IzOTRlOWZhNGM2OWI5Y2ZkY2YzNTgzNTExMDIwOWViODY=
+2018-08-31 15:43:45,373:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 5180.02ms
+2018-08-31 15:43:58,918:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:44:02,931:manageToken.py:generate_token[46]:DEBUG:token=bHptOjQ5Y2ZlMWEwOWEzYjdiZWE1ZWQ1ZTg0Yzk0YmRjMDc3YjA0OWM3Zjg=
+2018-08-31 15:44:02,934:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 4019.10ms
+2018-08-31 15:44:13,448:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:44:16,569:manageToken.py:generate_token[46]:DEBUG:token=bHptOjVkMDA3OWUzMDI4YjEyNTMyNjU5Njg1ZDFjMzc0MWZkZjg0MDUzNzk=
+2018-08-31 15:44:22,568:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 9122.72ms
+2018-08-31 15:44:37,100:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:44:45,342:manageToken.py:generate_token[46]:DEBUG:token=bHptOjI0ZTU3MWY0Y2ZmZDMwMzk2YjQxZGVhOTkxYWY0ZTQ4YWM4OGViMzY=
+2018-08-31 15:44:53,411:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 16313.82ms
+2018-08-31 15:44:59,152:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:47:33,218:manageToken.py:generate_token[46]:DEBUG:token=bHptOjJkZjBmMWNiMmQ2NmMyMTViMmU4MzliY2I3OWYzY2QyOWIwY2I5Mjg=
+2018-08-31 15:47:33,221:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 154075.22ms
+2018-08-31 15:47:43,551:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 15:49:09,352:manageToken.py:generate_token[46]:DEBUG:token=bHptOjgzMGE2ZDFiYzQ0MmZhZmI4OGZhOTUxNTllZWEyMzRmMTcxMzk3Mzc=
+2018-08-31 15:49:09,363:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 85814.57ms
+2018-08-31 16:09:41,752:main.py:post[226]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 16:09:41,754:manageToken.py:generate_token[46]:DEBUG:token=bHptOjVlMTVhYjY4ZmVlMDA5MzFhZDQ2ODQxMzE0YWE4Njk5NDI2YjI2N2I=
+2018-08-31 16:09:41,757:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 154080.62ms
+2018-08-31 16:10:09,139:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 16:10:09,155:main.py:<module>[305]:INFO:http_server.start:prot=8000
+2018-08-31 16:10:11,468:web.py:log_exception[1670]:ERROR:Uncaught exception POST /background_login (192.168.1.155)
+HTTPServerRequest(protocol='http', host='192.168.1.155:8000', method='POST', uri='/background_login', version='HTTP/1.1', remote_ip='192.168.1.155')
+Traceback (most recent call last):
+  File "D:\Anaconda3\pkgs\python-3.6.4-h6538335_1\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "E:/server/business_assets/background/main.py", line 224, in post
+    print(self.request._as_list.get('User-Agent'))
+AttributeError: 'HTTPServerRequest' object has no attribute '_as_list'
+2018-08-31 16:10:11,490:web.py:log_request[2162]:ERROR:500 POST /background_login (192.168.1.155) 23.06ms
+2018-08-31 16:11:04,408:web.py:log_exception[1670]:ERROR:Uncaught exception POST /background_login (192.168.1.155)
+HTTPServerRequest(protocol='http', host='192.168.1.155:8000', method='POST', uri='/background_login', version='HTTP/1.1', remote_ip='192.168.1.155')
+Traceback (most recent call last):
+  File "D:\Anaconda3\pkgs\python-3.6.4-h6538335_1\lib\site-packages\tornado\web.py", line 1590, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "E:/server/business_assets/background/main.py", line 224, in post
+    print(self.request._as_list.get('User-Agent'))
+AttributeError: 'HTTPServerRequest' object has no attribute '_as_list'
+2018-08-31 16:11:04,413:web.py:log_request[2162]:ERROR:500 POST /background_login (192.168.1.155) 40449.78ms
+2018-08-31 16:11:06,292:selector_events.py:__init__[65]:DEBUG:Using selector: SelectSelector
+2018-08-31 16:11:06,300:main.py:<module>[305]:INFO:http_server.start:prot=8000
+2018-08-31 16:11:11,784:main.py:post[227]:DEBUG:parameter:{'name': 'lzm', 'password': '3d03e0f1ae4be38d50b6c9e02ec08e9b'}
+2018-08-31 16:11:11,785:manageToken.py:generate_token[46]:DEBUG:token=bHptOjlkZTlhOTE0OTJiYTQxOWU1MWJmMGM3NjBkN2M0NWYyM2I0NDdkMmU=
+2018-08-31 16:11:11,786:web.py:log_request[2162]:INFO:200 POST /background_login (192.168.1.155) 4107.07ms

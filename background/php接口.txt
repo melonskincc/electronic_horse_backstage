@@ -1,0 +1,77 @@
+﻿http://47.106.205.225:8000/players   获得在线人数
+
+http://120.79.187.94:8000/players   获得在线人数
+
+http://192.168.1.35:8000/register?start=1528437019&end=1528437019   获得注册人数
+
+http://192.168.1.35:8000/pay?start=1528437019&end=1528437019   获得充值金额
+
+http://192.168.1.35:8000/pay_frequency?start=1528437019&end=1528437019   获得周期内充值用户游戏充值的频次
+
+http://192.168.1.35:8000/pay_total?start=1528437019&end=1528437019   获得周期内充值用户游戏充值的总额
+
+http://192.168.1.35:8000/gold_log?accountName=13544246806 获得用户金币流水   operation=Purify&start=1528437019&end=1528437019   获得类型金币流水
+http://192.168.1.35:8000/gold_log?operation=Procreate  获得类型金币流水
+
+http://192.168.1.35:8000/player_info_count   获得所有用户数量
+
+http://192.168.1.35:8000/player_info?page_no=1&orderby=gold&sort=desc asc  获得所有用户信息（accountName用户名，gold总金币，purify_prop稻草，horseCount马数量，businessHorseCount上市场马数量，buyHorseCount买入马数量，sellHorseCount卖出马数量，procreateHorseCount繁殖马数量，recharge_count充值次数，recharge_sum总充值金额，first_recharge首次充值，last_recharge最后充值，regtime注册时间）
+
+http://192.168.1.35:8000/player_detail_info?accountName=13544246806   获得单个用户信息
+
+http://192.168.1.35:8000/player_horse_detail_info?accountName=13544246806   获得用户马的信息 (hid马id,generation代数,race血统,qua品质,grade平均分,gene基因,state是否上架市场,inistr体力,iniacc冲刺,inista状态,inipow爆发,iniski技艺,sex公马（2）或母马（1），createtime创建时间，procreate_time繁殖出来时间，buy_time马入时间)
+
+http://192.168.1.35:8000/player_procreate_horse_detail_info?accountName=13544246806   获得用户繁殖马的信息
+
+http://192.168.1.35:8000/player_gold?count=100   获得用户金币，限制100条,不可以大于count
+
+http://47.106.205.225:8000/horse_trade_log         获得交易数据
+
+http://192.168.1.35:8000/horse_procreate_log         获得繁殖数据
+http://192.168.1.35:8000/player_horse_procreate_log?accountName=13544246806         获得用户繁殖数据
+
+http://192.168.1.35:8000/business_horse         获得交易市场马的数据
+
+http://192.168.1.35:8000/reserve_horse          获得预订马数据
+
+
+http://192.168.1.35:8000/send_notice?msg=李青要&interval=60&expire=1530514366         发送公告（msg内容，interval发送频率，expire结束时间）
+http://192.168.1.35:8000/get_notice                                                            查看公告
+http://192.168.1.35:8000/del_notice?notice_id=sssssssssssssss                                  删除公告
+http://192.168.1.35:8000/mod_notice?notice_id=sssssssssssssss&msg=sssssssssssssss&interval=60&expire=1530514366                                  修改公告
+
+http://47.106.205.225:8000/is_online?accountName=13819977677                           # 查用户是否在线
+http://192.168.1.35:8000/add_vbc?accountName=13544246806&count=100                             # 添加用户金币
+http://192.168.1.35:8000/horse_build?accountName=13544246806&count=1&sex=1&level=1&generation=1                      # 添加用户马（1母马，2公马）(1普通，2优秀，3卓越）
+http://192.168.1.35:8000/send_message?accountName=13544246806&msg=dddddddddddddddddd                  # 发消息
+http://192.168.1.35:8000/add_prop?accountName=13544246806&count=100&propId=5003001
+http://192.168.1.35:8000/players
+http://120.79.187.94:8000/add_purify?accountName=13544246806&count=100                             # 添加用户马草
+http://120.79.187.94:8000/add_give?accountName=13544246806&count=100                             # 添加用户代金卷
+http://120.79.187.94:8000/add_renascence?accountName=13544246806&count=100                             # 添加用户重生石
+http://192.168.1.35:8000/set_chat_mode?accountName=13544246806&mode=0       聊天模式 0是私聊公聊都可以，1是只可以私聊  2是只可以公聊  3不可以聊天
+
+http://120.79.187.94:8000/request_task?task={"cmd":"HorseBuild","count":1,"sex":2,"accountName":"13544246806"}
+http://120.79.187.94:8000/request_task?task={"cmd":"AddVbc","count":2000,"accountName":"13544246806"}
+http://120.79.187.94:8000/request_task?task={"cmd":"online","accountName":"13544246806"}
+http://120.79.187.94:8000/request_task?task={"cmd":"players"}
+http://120.79.187.94:8000/request_task?task={"cmd":"SendNotice","msg":"qqqqqqqqqqqqqqqqqqqqq"}
+
+http://120.79.187.94:8000/luck_draw_log
+
+
+operation_reasons = {"Procreate":"上架繁殖",
+     "Publish":"上架市场","Purify":"洗练",
+     "ProcreateHorse":"生小马","Buy":"买马","Reserve":"预订0代马",
+     "Sell":"卖马","Pay":"充值",
+     "ProcreateOut":"出租繁殖","Background":"后台操作"}
+	 
+	 
+	         <integral>
+            <Type>              UINT32             </Type>
+            <Flags>             BASE_AND_CLIENT     </Flags>
+            <Persistent>        true                </Persistent>
+            <Default>           0                   </Default>
+        </integral>
+		
+		http://47.106.205.225:8000/gold_log?operation=Pay&start=1532850170&end=1532936570
