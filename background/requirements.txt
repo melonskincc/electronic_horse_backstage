@@ -44,7 +44,7 @@ jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-core==4.4.0
 kombu==4.1.0
-lxml==4.2.3
+lxml==4.6.2
 MarkupSafe==1.0
 mistune==0.8.3
 multidict==4.1.0
