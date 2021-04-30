@@ -76,7 +76,7 @@ qiniu==7.2.2
 qtconsole==4.3.1
 redis==2.10.6
 requests==2.19.1
-rsa==3.4.2
+rsa==4.7
 Send2Trash==1.5.0
 simplegeneric==0.8.1
 six==1.11.0
